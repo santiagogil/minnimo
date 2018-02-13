@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "No non-sense configurable css themes",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "standard && nsp check && istanbul cover tape test.js",
     "commit": "git-cz",
