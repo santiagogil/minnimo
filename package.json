@@ -1,0 +1,49 @@
+{
+  "name": "minnimo",
+  "version": "0.0.0-development",
+  "description": "No non-sense configurable css themes",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nsp check && istanbul cover tape test.js",
+    "commit": "git-cz",
+    "setup": "npm i && semantic-release-cli setup",
+    "lint-prose": "write-good *.md",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santiagogil/minnimo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagogil/minnimo/issues"
+  },
+  "homepage": "https://github.com/santiagogil/minnimo#readme",
+  "devDependencies": {
+    "tape": "*",
+    "standard": "*",
+    "nsp": "*",
+    "commitizen": "*",
+    "cz-conventional-changelog": "*",
+    "semantic-release-cli": "*",
+    "istanbul": "*",
+    "write-good": "*",
+    "travis-deploy-once": "^4.3.4",
+    "semantic-release": "^12.4.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "concat-stream": "^1.6.0",
+    "js-yaml": "^3.10.0",
+    "modular-scale": "^4.4.1",
+    "mustache": "^2.3.0",
+    "xtend": "^4.0.1"
+  }
+}

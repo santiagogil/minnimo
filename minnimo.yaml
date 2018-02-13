@@ -1,0 +1,14 @@
+---
+typefaces:
+  body: primary
+  title: secondary
+  caption: monospaced
+colors:
+  background: "#ffffff"
+  primary: "#333333"
+  secondary: "#666666" 
+  highlight: red
+sizes:
+  baseFontSize: 120
+  base: 1
+  ratio: 1.5
