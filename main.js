@@ -108,7 +108,7 @@ hgroup {
 nav {
 }
 
-section {
+section + section {
   margin: {{sizes.xxl}}rem 0 0 0;
 }
 
