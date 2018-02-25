@@ -10,9 +10,10 @@ var yaml = require('js-yaml')
 process.stdin.pipe(concat(modscale))
 
 function modscale (data) {
-  var state = yaml.safeLoad(data)
+  var state = yaml.load(data)
   var ms = modularScale({ratios: [state.sizes.ratio], bases: [state.sizes.base]})
   var parsed = {
+    imgheight: 960 * ms(-1),
     xxs: ms(-3),
     xs: ms(-2),
     s: ms(-1),

@@ -10,6 +10,24 @@ background-color: {{colors.background}};
   box-sizing: border-box;
 }
 
+img {
+  margin-bottom: {{sizes.m}}rem;
+}
+
+@media (min-width: 960px) {
+  img {
+    width: 960px;
+    height: {{sizes.imgheight}}px;
+    overflow: hidden;
+    }
+}
+@media (max-width: 960px) {
+  img {
+    width: 100vw;
+    height: 66.7vw;
+    overflow: hidden;
+    }
+}
 body {
   hyphens: auto;
   overflow-wrap: break-word;
@@ -17,7 +35,7 @@ body {
   padding: 0;
   margin: 0 auto;
   color: {{colors.primary}};
-  max-width: 950px;
+  max-width: 960px;
 }
 
 address, article, aside, nav, dl, ol, ul {
@@ -44,7 +62,7 @@ header {
 h1, h2, h3, h4, h5, h6 {
   font-family: {{typefaces.title}};
   padding: 0;
-  margin: 0;
+  margin: 0 {{sizes.l}}rem 0 {{sizes.l}}rem;
   font-variant-ligatures: discretionary-ligatures;
   font-feature-settings: case;
   line-height: 1;
@@ -91,14 +109,14 @@ nav {
 }
 
 section {
-  margin: {{sizes.xl}}rem 0 0 0;
+  margin: {{sizes.xxl}}rem 0 0 0;
 }
 
 p, li, dd, cite, small {
   font-family: {{typefaces.body}};
   font-variant-numeric: oldstyle-nums proportional-nums;
   width: 36rem;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 dd {
@@ -122,11 +140,6 @@ figcaption, caption {
 figure {
 }
 
-img {
-  max-width: 100vw;
-  max-height: 100vh;
-}
-
 hr {
   background-color: {{colors.primary}};
   border: none;
@@ -140,14 +153,15 @@ main {
 }
 
 ol {
+  margin-left: {{sizes.l}}rem;
 }
 
 p {
-  margin: 0 0 {{sizes.l}}rem 0;
+  margin: 0 {{sizes.l}}rem {{sizes.l}}rem {{sizes.l}}rem;
 }
 
 p + p {
-  text-indent: {{sizes.l}}rem;
+  text-indent: {{sizes.m}}rem;
   margin-top: -{{sizes.l}}rem;
 }
 
@@ -165,6 +179,7 @@ code {
 }
 
 ul {
+  margin-left: {{sizes.l}}rem;
 }
 
 ul, ol {
