@@ -178,7 +178,7 @@ code {
     font-family: monospace;
 }
 
-ul {
+ul, ol, dl {
   margin-left: {{sizes.l}}rem;
 }
 
