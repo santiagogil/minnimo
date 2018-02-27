@@ -62,7 +62,7 @@ header {
 h1, h2, h3, h4, h5, h6 {
   font-family: {{typefaces.title}};
   padding: 0;
-  margin: 0 {{sizes.l}}rem 0 {{sizes.l}}rem;
+  margin: 0 {{sizes.xl}}rem 0 {{sizes.xl}}rem;
   font-variant-ligatures: discretionary-ligatures;
   font-feature-settings: case;
   line-height: 1;
@@ -116,7 +116,7 @@ p, li, dd, cite, small {
   font-family: {{typefaces.body}};
   font-variant-numeric: oldstyle-nums proportional-nums;
   width: 36rem;
-  max-width: 90%;
+  max-width: 80%;
 }
 
 dd {
@@ -153,11 +153,11 @@ main {
 }
 
 ol {
-  margin-left: {{sizes.l}}rem;
+  margin-left: {{sizes.xl}}rem;
 }
 
 p {
-  margin: 0 {{sizes.l}}rem {{sizes.l}}rem {{sizes.l}}rem;
+  margin: 0 {{sizes.xl}}rem {{sizes.l}}rem {{sizes.xl}}rem;
 }
 
 p + p {
@@ -179,7 +179,7 @@ code {
 }
 
 ul, ol, dl {
-  margin-left: {{sizes.l}}rem;
+  margin-left: {{sizes.xl}}rem;
 }
 
 ul, ol {
