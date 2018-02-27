@@ -11,7 +11,7 @@ background-color: {{colors.background}};
 }
 
 img {
-  margin-bottom: {{sizes.m}}rem;
+  margin-bottom: {{sizes.l}}rem;
 }
 
 @media (min-width: 960px) {
