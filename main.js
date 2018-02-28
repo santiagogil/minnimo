@@ -120,6 +120,8 @@ p, li, dd, cite, small {
 }
 
 dd {
+  margin-left: {{sizes.m}}rem;
+  margin-bottom: {{sizes.m}}rem;
 }
 
 div {
@@ -130,6 +132,7 @@ dl {
 
 dt {
   font-family: {{typefaces.title}};
+  font-size: {{sizes.s}}rem;
 }
 
 figcaption, caption {
