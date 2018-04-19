@@ -14,13 +14,13 @@ function modscale (data) {
   var ms = modularScale({ratios: [state.sizes.ratio], bases: [state.sizes.base]})
   var parsed = {
     imgheight: 960 * ms(-1),
-    xxs: ms(-3),
-    xs: ms(-2),
-    s: ms(-1),
-    m: ms(0),
-    l: ms(1),
-    xl: ms(2),
-    xxl: ms(3)
+    xxs: ms(-3, true),
+    xs: ms(-2, true),
+    s: ms(-1, true),
+    m: ms(0, true),
+    l: ms(1, true),
+    xl: ms(2, true),
+    xxl: ms(3, true)
   }
   var sizes = xtend(state.sizes, parsed)
   var newstate = state
