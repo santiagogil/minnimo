@@ -206,6 +206,10 @@ blockquote p {
   text-indent: -{{sizes.xxs}}rem;
 }
 
+blockquote p + p {
+  text-indent: {{sizes.m}}rem;
+}
+
 blockquote {
   margin: 0;
   padding: 0;
