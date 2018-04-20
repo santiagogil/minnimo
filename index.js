@@ -13,7 +13,8 @@ function modscale (data) {
   var state = yaml.load(data)
   var ms = modularScale({ratios: [state.sizes.ratio], bases: [state.sizes.base]})
   var parsed = {
-    imgheight: 960 * ms(-1),
+    imgheight: 960 * ms(-1, true),
+    fullimgheight: 100 * ms(-1, true),
     xxs: ms(-3, true),
     xs: ms(-2, true),
     s: ms(-1, true),

@@ -24,7 +24,7 @@ img {
 @media (max-width: 960px) {
   img {
     width: 100vw;
-    height: 66.7vw;
+    height: {{sizes.fullimgheight}}vw;
     overflow: hidden;
     }
 }
