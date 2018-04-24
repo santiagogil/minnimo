@@ -17,14 +17,12 @@ img {
 @media (min-width: 960px) {
   img {
     width: 960px;
-    height: {{sizes.imgheight}}px;
     overflow: hidden;
     }
 }
 @media (max-width: 960px) {
   img {
     width: 100vw;
-    height: {{sizes.fullimgheight}}vw;
     overflow: hidden;
     }
 }
