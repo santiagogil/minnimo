@@ -11,9 +11,7 @@ process.stdin.pipe(concat(modscale))
 
 function modscale (data) {
   var state = yaml.load(data)
-  console.log(state)
-  var ms = modularScale({ratio: state.sizes.ratio, base: state.sizes.base})
-  console.log(ms(0))
+  var ms = modularScale({ratios: [state.sizes.ratio], bases: [state.sizes.base]})
   var parsed = {
     imgheight: 960 * ms(-1, true),
     fullimgheight: 100 * ms(-1, true),

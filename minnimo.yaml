@@ -10,5 +10,5 @@ colors:
   highlight: red
 sizes:
   baseFontSize: 120
-  base: 20px
+  base: 1
   ratio: 1.5
