@@ -41,7 +41,7 @@
     }
   },
   "dependencies": {
-    "codecov": "^3.0.0",
+    "codecov": "3.0.2",
     "concat-stream": "^1.6.0",
     "js-yaml": "^3.10.0",
     "modular-scale": "^5.1.0",
