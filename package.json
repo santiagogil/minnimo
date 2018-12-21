@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "codecov": "^3.0.0",
-    "concat-stream": "^1.6.0",
+    "concat-stream": "^2.0.0",
     "js-yaml": "^3.10.0",
     "modular-scale": "^5.1.0",
     "mustache": "^2.3.0",
