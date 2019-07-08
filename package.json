@@ -46,6 +46,6 @@
     "js-yaml": "^3.10.0",
     "modular-scale": "^5.1.0",
     "mustache": "^2.3.0",
-    "xtend": "^4.0.1"
+    "xtend": "^4.0.2"
   }
 }
