@@ -25,7 +25,7 @@
   "homepage": "https://github.com/santiagogil/minnimo#readme",
   "devDependencies": {
     "tape": "*",
-    "standard": ">=11.0.1",
+    "standard": ">=14.3.1",
     "nsp": "*",
     "commitizen": "*",
     "cz-conventional-changelog": "*",
